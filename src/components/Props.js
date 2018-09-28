@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 class Props extends Component {
@@ -13,6 +13,10 @@ class Props extends Component {
             You will love it {name} ({age})! 
         </p>
       }
+      Greeting.propTypes ={
+        name: PropTypes.string,
+        age: PropTypes.number
+    }
     return (
       <div>
        <Headline/>
@@ -21,10 +25,6 @@ class Props extends Component {
     );
   }
 }
-/*
-Greeting.propTypes ={
-    name: PropTypes.string,
-    age: PropTypes.number
-}*/
+
 
 export default Props;
