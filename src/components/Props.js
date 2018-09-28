@@ -25,6 +25,6 @@ class Props extends Component {
 Greeting.propTypes ={
     name: PropTypes.string,
     age: PropTypes.number
-}
-*/
+}*/
+
 export default Props;
