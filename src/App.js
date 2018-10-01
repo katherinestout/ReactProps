@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import Props from './components/Props';
+import MoreProps from './components/MoreProps';
 
 
 class App extends Component {
   render() {
     return (
-    
-      <Props/>
+    <div>
+   <Props/>
+  <MoreProps/>
+    </div>
+   
     );
   }
 }
